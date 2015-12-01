@@ -4,7 +4,7 @@
   "description": "confuse text files with simple functions",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,12 @@
   },
   "homepage": "https://github.com/Boxie5/gulp-mini-confusion#readme",
   "dependencies": {
+    "gulp-match": "^1.0.0",
     "through2": "^2.0.0"
   },
   "devDependencies": {
+    "event-stream": "^3.3.2",
+    "istanbul": "^0.4.1",
     "jshint": "^2.8.0",
     "mocha": "^2.3.4",
     "should": "^7.1.1"
