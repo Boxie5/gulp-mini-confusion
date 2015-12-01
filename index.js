@@ -1,8 +1,8 @@
 "use strict";
 
-var though = require('through2');
+var through = require('through2');
 
-modules.exports = function(condition) {
+module.exports = function(condition) {
   return through.obj(function(file, enc, callback){
     if (file.isNull()) {
       this.push(file);

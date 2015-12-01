@@ -1,6 +1,6 @@
 {
   "name": "gulp-mini-confusion",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "confuse text files with simple functions",
   "main": "index.js",
   "scripts": {
