@@ -1,0 +1,33 @@
+{
+  "name": "gulp-mini-confusion",
+  "version": "0.0.1",
+  "description": "confuse text files with simple functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boxie5/gulp-mini-confusion.git"
+  },
+  "keywords": [
+    "gulp",
+    "confuse",
+    "char",
+    "code"
+  ],
+  "author": "Bowen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Boxie5/gulp-mini-confusion/issues"
+  },
+  "homepage": "https://github.com/Boxie5/gulp-mini-confusion#readme",
+  "dependencies": {
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  }
+}
